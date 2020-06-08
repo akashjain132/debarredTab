@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Debarred Tab",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "debarredPage.html"
+  ],
+  "permissions":[
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "DebarredTab.png",
+    "default_popup": "popup.html",
+    "default_title": "Debarred Tab"
+  }
+}

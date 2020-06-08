@@ -1,0 +1,23 @@
+  body,h1 {font-family: "Raleway", sans-serif}
+  body, html {height: 100%; background-color: #d7cdcd;}
+  .bgimg {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .description {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .display-middle {
+    position: relative;
+    top: 300px;
+  }
+
+  #debarredPageURL {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #916c6c;
+  }
