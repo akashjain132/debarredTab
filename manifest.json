@@ -14,11 +14,13 @@
     "debarredPage.html"
   ],
   "permissions":[
+    "storage",
     "tabs"
   ],
   "browser_action": {
     "default_icon": "DebarredTab.png",
     "default_popup": "popup.html",
     "default_title": "Debarred Tab"
-  }
+  },
+  "options_page": "options.html"
 }

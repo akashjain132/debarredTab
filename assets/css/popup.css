@@ -12,17 +12,8 @@ html {
   box-sizing: inherit;
 }
 body {
-/*  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';*/  
-/*  color: #444;
-  padding: 0;
-  margin: 0;
-*/  width: 325px;
-/*  position: relative;
-  font-size: 15px;
-  background: #fff;
-*/}
+  width: 325px;
+}
 @media (min-resolution: 192dpi) {
   body {
     font-weight: 300;
@@ -60,9 +51,6 @@ h1 {
   background: #a70707;
 }
 
-.group {
-  padding: 10px 0;
-}
 .group:not(:last-of-type) {
   border-bottom: 1px solid #ccc;
 }
@@ -72,8 +60,9 @@ h1 {
   font-size: 16px;
   white-space: nowrap;
   cursor: pointer;
-  padding: 0 15px;
+  padding: 9px 15px;
 }
+
 .menuOption:hover .optionText {
   text-decoration: underline;
 }
@@ -84,4 +73,8 @@ h1 {
 }
 .dark .group {
   border-color: #555;
+}
+
+.menuOption:last-child {
+  background-color: #e5dbdb;  
 }

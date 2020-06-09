@@ -2,8 +2,13 @@
 
 var debarredTab;
 
-// 30 mins
-const timeout = 1000 * 60 * 30;
+var timeout = '1800000';
+
+chrome.storage.sync.get({
+  debarredTabTimer: '1800000',
+}, function(items) {
+  timeout = items.debarredTabTimer;
+});
 
 document.addEventListener("visibilitychange", function() {
   if (document.visibilityState != 'visible') {

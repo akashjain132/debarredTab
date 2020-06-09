@@ -1,0 +1,56 @@
+  body,h1 {font-family: "Raleway", sans-serif}
+  body, html {height: 100%; background-color: #d7cdcd; text-align: center; color: #785c5c; font-size: 15px;}
+  body {margin: 60px 0 0 0;}
+
+  h1 {margin-bottom: 20px;}
+
+  #status {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #c1ff0357;
+    padding: 15px 10px;    
+  }
+
+  .bgimg {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .description {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  #debarredPageURL {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    color: #916c6c;
+  }
+
+  select {
+    min-width: 140px;
+    color: #444;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    padding: 10px 30px 10px 15px;
+    font-size: 14px;
+    border-color: #ccc;
+    position: relative;
+    cursor: pointer;    
+  }
+
+  button {
+    min-width: 100px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-color: #ccc;
+    box-shadow: none;
+    position: relative;
+    cursor: pointer;
+  }

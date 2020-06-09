@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Debarred Tab Settings</title></head>
+	<link type="text/css" href="assets/css/options.css" rel="stylesheet">
+	<script src="assets/js/options.js"></script>
+	<body>
+
+    <div id="status" style="display: none;"></div>
+
+    <div class="display-middle">
+      <h1 class="description">Debarred Tab</h1>
+      <hr class="border-grey" style="margin:auto;width:40%">
+      <a href="#" class="border-grey" id="debarredPageURL"></a>
+    </div>
+
+	<label for="DebarredTabTimer">Debarred Tab Timer:</label>
+		<select name="DebarredTabTimer" id="DebarredTabTimer">
+		  <option value=60000>1 Minute</option>
+		  <option value=120000>2 Minutes</option>
+		  <option value=300000>5 Minutes</option>
+		  <option value=600000>10 Minutes</option>
+		  <option value=1800000>30 Minutes</option>
+		  <option value=3600000>1 hours</option>
+		  <option value=7200000>2 hours</option>
+		  <option value=10800000>3 hours</option>
+		  <option value=14400000>4 hours</option>
+		  <option value=18000000>5 hours</option>
+		</select>
+		<div>
+		  <button id="save">Save</button>
+		</div>
+	</body>
+</html>
+
